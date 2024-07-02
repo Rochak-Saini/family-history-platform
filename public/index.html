@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family History Platform</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to the Family History Platform</h1>
+
+  <h2>Add Family Member</h2>
+  <form id="add-member-form">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="number" id="age" placeholder="Age" required>
+    <input type="date" id="date_of_birth" placeholder="Date of Birth" required>
+    <input type="date" id="date_of_death" placeholder="Date of Death">
+    <input type="text" id="image" placeholder="Image URL">
+    <textarea id="description" placeholder="Description"></textarea>
+    <button type="submit">Add Member</button>
+  </form>
+
+  <h2>Update Family Member</h2>
+  <form id="update-member-form">
+    <input type="number" id="update-id" placeholder="Member ID" required>
+    <input type="text" id="update-name" placeholder="Name">
+    <input type="number" id="update-age" placeholder="Age">
+    <input type="date" id="update-date_of_birth" placeholder="Date of Birth">
+    <input type="date" id="update-date_of_death" placeholder="Date of Death">
+    <input type="text" id="update-image" placeholder="Image URL">
+    <textarea id="update-description" placeholder="Description"></textarea>
+    <button type="submit">Update Member</button>
+  </form>
+
+  <h2>Delete Family Member</h2>
+  <form id="delete-member-form">
+    <input type="number" id="delete-id" placeholder="Member ID" required>
+    <button type="submit">Delete Member</button>
+  </form>
+
+  <h2>Family Members</h2>
+  <div id="members-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

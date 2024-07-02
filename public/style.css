@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.card-title {
+  color: #343a40;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.member {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.member img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
