@@ -1,19 +1,31 @@
 {
   "name": "family-history-platform",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A platform to track family history, traditions, customs, and other family-specific details.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "knex": "^3.1.0",
-    "pg": "^8.12.0",
-    "sqlite3": "^5.1.7"
-  }
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rochak-Saini/family-history-platform.git"
+  },
+  "keywords": [
+    "family",
+    "history",
+    "tracker",
+    "postgresql",
+    "nodejs",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
